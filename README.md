@@ -90,11 +90,14 @@ To automatically respond to updates or deletions:
 ![{3BF7C018-936A-4D6E-8628-3BB7AB8D786A}](https://github.com/user-attachments/assets/02ff0e7b-89f7-4408-b31f-c8de7887593b)
 
 ### Normalization
-![{B25FF013-6A9F-49EA-A0B0-DE0708A0A765}](https://github.com/user-attachments/assets/45ddd55e-1e8a-46d5-8564-d233abfce6d0)
 
-1NF: Each table has atomic columns.
-2NF: No partial dependency of non-prime attributes on candidate keys.
-3NF: No transitive dependencies between non-prime attributes.
-Example: ARTIST Table
-Functional Dependency: ARTIST_ID -> ARTIST_NAME, COUNTRY, DOB
-Normalization: The table is in 3NF because it has no transitive dependencies.
+The database follows the **Third Normal Form (3NF)** to ensure data is structured efficiently, reducing redundancy and preventing anomalies. The key steps of normalization are:
+
+- **1NF**: Each table has atomic columns (i.e., no multi-valued attributes).
+- **2NF**: No partial dependency of non-prime attributes on candidate keys.
+- **3NF**: No transitive dependencies between non-prime attributes.
+
+#### Example: ARTIST Table
+
+- **Functional Dependency**: `ARTIST_ID -> ARTIST_NAME, COUNTRY, DOB`
+- **Normalization**: The table is in 3NF because it has no transitive dependencies.
