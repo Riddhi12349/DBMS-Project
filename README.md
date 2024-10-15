@@ -14,8 +14,8 @@ A PL/SQL-based project designed to manage a personal music library, including ar
     - [Deletion](#deletion)
     - [Triggers](#triggers)
 7. [Normalization](#normalization)
-8. [Contributors](#contributors)
-9. [License](#license)
+8. [Made By](#Madeby)
+
 
 ## Introduction
 
@@ -101,3 +101,6 @@ The database follows the **Third Normal Form (3NF)** to ensure data is structure
 
 - **Functional Dependency**: `ARTIST_ID -> ARTIST_NAME, COUNTRY, DOB`
 - **Normalization**: The table is in 3NF because it has no transitive dependencies.
+
+## Made By 
+Riddhi Garg
